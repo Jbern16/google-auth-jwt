@@ -40,7 +40,7 @@ module Google
           }
         end
         
-        # get time
+        # get unix time
         def get_time(offset = 0)
           (Time.now + offset).to_i
         end
